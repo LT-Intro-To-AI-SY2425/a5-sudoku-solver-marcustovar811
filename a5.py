@@ -106,7 +106,12 @@ class Board:
         Returns:
             a tuple of row, column index identifying the most constrained cell
         """
-        pass
+        mini = self.size
+        row = 0
+        column = 0
+        
+
+
 
     def failure_test(self) -> bool:
         """Check if we've failed to correctly fill out the puzzle. If we find a cell
@@ -123,7 +128,7 @@ class Board:
         Naively checks that we've placed as many numbers as cells on the board
 
         Returns:
-            True if we've placed all numbers, False otherwise
+            True if we've placed all numbers, False otherwise if num nums = 81 is true else false
         """
         pass
 
